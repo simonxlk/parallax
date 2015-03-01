@@ -1,0 +1,12 @@
+#content_layer{position:absolute; width:100%; margin:0 auto;}
+#para1 {position:fixed;
+	background: url(parallax-ball.png) no-repeat 43% 50%;
+	width:100%;
+	height:800px;
+}
+#para2 {position:fixed;
+	background: url(parallax-ball.png) no-repeat 57% 50%;
+	width:100%;
+	height:800px;
+}
+#inner-content{width:960px; margin:0 auto;}
