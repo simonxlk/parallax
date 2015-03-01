@@ -23,7 +23,7 @@ two para layers are for the background effect, they should remain empty:
 
 
 
-###2.CSS
+###2. CSS
  In the CSS set the `#content-layer` to `position:absolute;`, `#para1` and `#para2` should be set to `position:fixed` 
 this way the will not scroll with the content 
 automatically. 
@@ -46,8 +46,8 @@ exactly you want them to start, in this case the 2 divs intersect in the middle 
 
  
 
- ###3.Javascript 
- Add an event listener which executes the `parallax()` function each time a user scrolls:
+###3 .Javascript 
+Add an event listener which executes the `parallax()` function each time a user scrolls:
  ```
  window.addEventListener("scroll", parallax, false);
  ```
